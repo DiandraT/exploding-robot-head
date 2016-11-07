@@ -45,16 +45,14 @@ body {
 }
 
 .robot-head-right {
-  float: right;
   position: absolute;
   left: 55.5%;
-  transform:translateX(-55.5%);
+  transform: translateX(-55.5%);
 
   top: 1rem;
 }
 
 .robot-head-left {
-  float: left;
   position: absolute;
   left: 40.75%;
   transform: translateX(-40.75%);
