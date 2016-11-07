@@ -57,8 +57,3 @@ body {
   left: 40.75%;
   transform: translateX(-40.75%);
 }
-
-.robot-head-right:hover,
-.robot-head-left:hover {
-  display: none;
-}
