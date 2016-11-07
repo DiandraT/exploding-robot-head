@@ -15,6 +15,10 @@ body {
 
 .banner {
   background-color: #2b3851;
+
+  padding-bottom: 9.5rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .robot {
@@ -23,6 +27,12 @@ body {
 
 .robot-body {
   width: 320px;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  top: 3.5rem;
 }
 
 .robot-brain {
@@ -32,4 +42,25 @@ body {
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+}
+
+.robot-head-right {
+  float: right;
+  position: absolute;
+  left: 55.5%;
+  transform:translateX(-55.5%);
+
+  top: 1rem;
+}
+
+.robot-head-left {
+  float: left;
+  position: absolute;
+  left: 40.75%;
+  transform: translateX(-40.75%);
+}
+
+.robot-head-right:hover,
+.robot-head-left:hover {
+  display: none;
 }
